@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CharacterPortraitShaderGraphMaterial
+  m_Shader: {fileID: -6465566751694194690, guid: a82e81f2d3ae7b446aa89c77db737cf1, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BackgroundImage:
+        m_Texture: {fileID: 2800000, guid: 4e4fb2c2d51a5b94f9b00e92e73f6ff3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OverlayImage:
+        m_Texture: {fileID: 2800000, guid: f2aa85e69c15af34f883c3ddf0bb8db8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PortraitImage:
+        m_Texture: {fileID: 2800000, guid: 54c22e2fe0fb0ea4a91301432d585bc4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TorsoImage:
+        m_Texture: {fileID: 2800000, guid: 969d4e07f285fe849a511a7881cb063a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _TimeOffset: 0.27
+    m_Colors:
+    - _PlayerColor: {r: 0.5529412, g: 0.78039217, b: 0.42745098, a: 1}
+  m_BuildTextureStacks: []
